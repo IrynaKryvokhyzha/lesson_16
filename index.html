@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_15</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="page">
+			<section class="page__main main-block">
+				<div class="main-block__container">
+					<div class="main-block__image">
+						<img src="img/illustration.svg" alt=""> 						
+					</div>
+					<div class="main-block__dropline dropline-main">
+						<div class="dropline-main__column">
+							<div class="dropline-main__subtitle">Any questions?</div>
+							<div class="dropline-main__title">
+								<h1>Drop us a line</h1>
+							</div>
+							<form class="dropline-main__info info-part" action="#">
+								<div class="info-part__line">
+									<div class="info-part__item">
+										<label class="info-part__first-name" for="first-name">First Name*</label>
+										<input class="info-part__input" id="first-name" required placeholder="Your first name" name="f-name" type="text">								
+									</div>
+									<div class="info-part__item">
+										<label class="info-part__last-name" for="last-name">Last  Name*</label>
+										<input class="info-part__input" id="last-name" required placeholder="Your last name" name="l-name" type="text">								
+									</div>
+									<div class="info-part__item">
+										<label class="info-part__email" for="email">Email*</label>
+										<input class="info-part__input" id="email" required placeholder="Your working email" name="email-line" type="email">								
+									</div>
+									<div class="info-part__item">
+										<label class="info-part__phone" for="phone">Phone</label>
+										<input class="info-part__input" id="phone" placeholder="Your phone number" name="phone-line" type="tel">								
+									</div>
+									<div class="info-part__item">
+										<label class="info-part__message" for="message">Message*</label>									
+										<textarea class="info-part__text" id="message" required placeholder="Your message" name="message-line" ></textarea>						
+									</div>
+									<div class="info-part__action">
+										<div class="info-part__checkbox">
+											<input class="checkbox__agree" id="agree" name="f-name" type="checkbox" value="yes">	
+											<label class="checkbox__label" for="agree"><span class="checkbox__text">I agree to receive communications from Createx Online School</span></label>																								
+										</div>			
+										<div class="info-part__send">
+											<button type="submit" class="info-part__button button"><span>Send message</span></button> 
+										</div>
+									</div>
+									<div class="radio-button">
+										<label class="radio-button__title">Recieve notification by:</label>
+										<div class="radio-button__block">
+											<input class="radio-button__input" type="radio" name="members" value="lager">
+											<label class="radio-button__label">email</label>
+											<input class="radio-button__input" type="radio" name="members" value="lager">
+											<label class="radio-button__label">viber</label>
+											<input class="radio-button__input" type="radio" name="members" value="lager">
+											<label class="radio-button__label">telegram</label>
+										</div>
+									</div>
+								</div>	
+							</form>
+						</div>
+					</div>
+				</div>				
+			</section>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+</html>
+
